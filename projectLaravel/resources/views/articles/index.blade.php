@@ -18,7 +18,7 @@
                             <h1>{{ $article->title }}</h1>
                             <p>{{ $article->content }}</p>
                             <a href="{{route('article.show', ['id' => $article->id])}}">
-                                Voir mon article
+                                Voir cet article
                             </a>
                         @empty
                             Rien du tout
